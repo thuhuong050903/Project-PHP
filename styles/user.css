@@ -1,0 +1,360 @@
+/* CSS header và section 1*/
+
+.section1-content-left {
+  font-weight: bold;
+  color:white;
+  width:50%;
+  padding-top: 20px;
+  /* height: 300px; */
+}
+#form-pickUp-location {
+  background-color: aliceblue;
+}
+#form-drop-location {
+  background-color: aliceblue;
+}
+.section1-form table{
+  margin: auto;
+  
+}
+.section1-form {
+  width: 100%;
+  padding-top: 30px;
+}
+.section1-content-right {
+  color: aliceblue;
+  font-weight: bold;
+  width:50%;
+ 
+  height: 250px;
+  background-color: rgba(4, 4, 4, 0.646);
+}
+.section1-content {
+  padding-top: 250px;
+  display: flex;
+  margin: auto;
+  gap: 30px;
+  justify-content: space-around;
+  width: 70%;
+ 
+  }
+
+.section1{
+  position: relative;
+  width:100%;
+  height:100vh;     
+  background-image: url('../images/21.jpg');   
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+/* .slideshow-container{
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+} */
+/* ----------------------------*/
+
+/* CSS session 2 */
+.latest-blog{
+    padding: 50px 0px;
+    width: 100%;
+    /* height: auto; */
+    background: #5b5757;
+ 
+  }
+  .blog-box{
+    -webkit-box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+    box-shadow: 0px 5px 35px 0px rgba(148, 146, 245, 0.15);
+    background: #ffffff;
+    margin-bottom: 30px;
+  }
+  .blog-content{
+    position: relative;
+  }
+  .title-blog{
+    padding: 30px 15px 30px 45px;
+  }
+  .title-blog h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: #010101;
+  }
+  .title-blog p{
+    margin: 0px;
+  }
+  .option-blog {
+    /* position: absolute; */
+    top: 0px;
+    left: 0px;
+    top: 50%;
+    transform: translate(0%,-50%);
+  }
+  .option-blog li a{
+    background: #010101;
+    display: inline-block;
+    font-size: 18px;
+    color: #ffffff;
+    width: 34px;
+    height: 34px;
+    text-align: center;
+    line-height: 34px;
+  }
+  .option-blog li a:hover{
+    background: #d33b33;
+    color: #ffffff;
+  }
+  .tooltip-inner {
+    background-color: #d33b33;
+  }
+  .tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: #d33b33 !important;
+    padding-top: 0px !important;
+    top: 0px !important;
+  }
+  .tooltip.bs-tooltip-left .arrow:before {
+    border-right-color: #d33b33 !important;
+  }
+  .tooltip.bs-tooltip-bottom .arrow:before {
+    border-right-color: #d33b33 !important;
+  }
+  .tooltip.bs-tooltip-top .arrow:before {
+    border-right-color: #d33b33 !important;
+  }
+  .title-all{
+    margin-bottom: 30px;
+  }
+  .title-all h1{
+    font-size: 32px;
+    font-weight: 700;
+    color: #010101;
+  }
+  .title-all p{
+    color: #999999;
+    font-size: 16px;
+  }
+  .products-box{
+    padding: 70px 0px;
+  }
+  .special-menu{
+    margin-bottom: 40px;
+  }
+  .filter-button-group{
+    display: inline-block;
+  }
+  .filter-button-group button{
+    background: #d33b33;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    padding: 5px 30px;
+    font-size: 18px;
+  }
+  .filter-button-group button.active{
+    background: #010101;
+  }
+  
+/* SC6 */
+.sc6{
+    padding: 50px 0px;
+    width: 100%;
+    height: 700px;
+    background: #5b5757;
+	background-color: #999;
+
+}
+.sc6 .wrap{
+
+    justify-content: center
+}
+.sc6 .container-sc6 .text-title2{
+	color: white;
+    font-size: 18px;
+    font-weight: 300px;
+    line-height: 52px;
+    text-align:center ;
+	
+}
+.sc6 .container-sc6 .text-title1{
+	color: white;
+	font-family: "Oswald",sans-serif;
+    font-size: 38px;
+    letter-spacing: 1px;
+   
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+	
+}
+.sc6 .container-sc6 .wrap .main-text{
+	height: 250px;
+	width: 216px;
+	border-radius: 5%;
+	background-color: #595959;
+	text-align: center;
+	margin-right: 10px;
+}
+
+.triangle {
+	width: 0; 
+	height: 0; 
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #595959;
+	margin-left: 40%;
+    margin-bottom: 40px;
+	display: block;
+	}
+
+.sc6 .container-sc6 .wrap .icon{
+	color: #d4651f;
+	text-align: center;
+	padding-top: 2rem;
+	font-size: 20px;
+
+}
+.sc6 .container-sc6 .wrap{
+	display: flex;
+	flex-direction: row;
+}
+.sc6 .container-sc6 .review_details .main-text .name p{
+	text-align: center;
+    font-weight: 200;
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #999;
+
+}
+.sc6 .container-sc6 .avatar img{
+	align-items: center;
+	border-radius: 50%;
+}
+
+
+.sc6 .container-sc6 .wrap p{
+	color: #fff;
+	font-family: "Oswald",sans-serif;
+	padding: 0.8rem;
+	border-radius: 160px;
+
+
+}
+
+
+/* ------------------- */
+
+/* CSS trang checkout */
+
+/* form nhập thông tin  */
+.form-information {
+    width: 50%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    line-height: 50px;
+}
+.title {
+    font-weight: bold;
+}
+.required {
+    color:red;
+}
+.form-input {
+    width: 70%;
+    height: 40px;
+}
+.form-information-group {
+    margin-left: 20%;
+}
+.submit {
+    width:70px;
+    height:30px;
+    background-color: black;
+    color: aliceblue;
+}
+.cancel {
+    width:70px;
+    height:30px;
+    border:none;
+}
+
+/* form hiển thị thông tin chi tiết hoá đơn */
+.form-information-checkout {
+    width: 50%;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    line-height: 30px;
+}
+.checkout-group {
+    margin-left: 20%;
+}
+
+.checkout-group .form-input{
+    width: 70%;
+    height: 20px;
+    
+    
+}
+
+.checkout {
+    width:70px;
+    height:30px;
+    background-color: black;
+    color: aliceblue;
+}
+
+/* ----------------------- */
+
+.about_section{
+  background-color: #5b5757;
+  color: white;
+}
+.recent_taital {
+  width: 100%;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+  color: #0e0a0d;
+  text-transform: uppercase;
+}
+.text-title2{
+  font-family: "Oswald",sans-serif;
+    font-size: 38px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    /* margin-top: 50px; */
+    padding-top: 50px;
+    line-height: 20px;
+    text-align: center;
+}
+.recent_taital::after {
+  content: '';
+  position: absolute;
+  background-color: #0c1045;
+  width: 130px;
+  height: 2px;
+  left: 0px;
+  right: initial;
+  margin: 0 auto;
+  bottom: 10px;
+}
+
+.recent_box {
+  width: 100%;
+  float: left;
+  padding-top: 20px;
+}
+
+.recent_left {
+  width: 40%;
+  float: left;
+  padding-top: 15px;
+}
+
+.recent_right {
+  width: 60%;
+  float: left;
+}
